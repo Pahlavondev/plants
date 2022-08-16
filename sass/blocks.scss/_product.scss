@@ -1,0 +1,135 @@
+.product__wrapper {
+  text-align: center;
+}
+
+.product__title {
+  margin: 0;
+  font-family: "Nunito", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.product__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__item {
+  margin-right: 24px;
+}
+
+.product__item:last-child {
+  margin-right: 0;
+}
+
+.product__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #4a4a4a;
+}
+
+.product__link--active {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: $main-color;
+}
+
+.product__inner {
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+
+.product__inner-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product__inner-item:nth-child(1) {
+  width: 270px;
+  background-color: #eaf2e5;
+}
+
+.product__inner-image:nth-child(1) {
+  margin: 10px 65px 6px 65px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product__inner-title {
+  margin: 0;
+  font-family: "Nunito", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1a1a1a;
+  margin-left: 31px;
+  margin-bottom: 38px;
+}
+
+.product__inner-text {
+  margin-left: 31px;
+  margin-bottom: 39px;
+  font-family: "Nunito", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1a1a1a;
+}
+
+.product__inner-item:nth-child(2) {
+  width: 270px;
+  background-color: #f0ebe6;
+}
+
+.product__inner-image:nth-child(2) {
+  margin: 4px 75px 12px 75px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product__inner-item:nth-child(3) {
+  width: 270px;
+  background-color: #e2ece4;
+}
+
+.product__inner-image:nth-child(3) {
+  margin: 7px 76px 9px 76px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product__inner-item:nth-child(4) {
+  width: 270px;
+  background-color: #e7eeed;
+}
+
+.product__inner-image:nth-child(4) {
+  margin: 0 55px 16px 55px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product__link {
+  text-align: center;
+}
+
+.product__link-view {
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  background-color: $main-color;
+  display: inline-block;
+}
